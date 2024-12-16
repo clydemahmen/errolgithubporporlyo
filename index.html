@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#interest">Interest</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Clyde Errol C. Del Valle</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#interest" onclick="toggleMenu()">Interest</a></li>
+            <li><a href="#hobbies" onclick="toggleMenu()">Hobbies</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id= "profile">
+        <div class="section__pic-container">
+            <img src="./profileko/pectyur.jpg" alt="Clyde profile picture">
+        </div>
+        <div class="section__text">
+            <P class="section__text__p1">Hello, I'm</P>
+            <h1 class="title">Clyde Errol C. Del Valle</h1>
+            <p class="section__text__p2">BS Information Technology</p>
+            <div id="social-container">
+                <img src="./social media/5296499_fb_facebook_facebook logo_icon.png" alt="myfacebook" 
+                class="icon" onclick="location.href='https://www.facebook.com/clydeerrol.delvalle'"
+                />
+                <img src="./social media/5296765_camera_instagram_instagram logo_icon.png" alt="myInstagram" 
+                class="icon" onclick="location.href='https://www.instagram.com/oneof1.clyde?igsh=YW44dmF0a3lkbTJn/'"
+                />
+            </div>
+        </div>
+    </section>
+</section>
+<section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./profileko/gradpic.jpg" 
+                alt="Profile picture" 
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/cv.png" 
+                        alt="Experience icon"
+                        class=" icon"
+                        />
+                        <h3>Personal Information</h3>
+                        <p>18 years old <br> From San Pablo City, Laguna</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" 
+                        alt="Education icon"
+                        class=" icon"
+                        />
+                        <h3>Education</h3>
+                        <p>TVL-ICT (2023-2024)</p>
+                        <p>Bachelor of Science in Information Technology (present)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>My name is Clyde Errol C. Del Valle. I completed my elementary and high school education in Dolores, San Pablo City, Laguna. I pursued my senior high school studies at LSPU-SPCC, where I graduated with a TVL-ICT strand in the academic year 2023–2024. Currently, I am enrolled at the same university, working toward a bachelor's degree in Information Technology.</p>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#interest'" 
+        />
+    </section>
+    <section id="interest">
+        <p class="section__text__p1">Interest</p>
+        <h1 class="title">Interest</h1>
+        <div class="interest-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="interest-sub-title">Automobiles</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JDM</h3>
+                    <p>Drift and Tuning automobiles</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>European</h3>
+                    <p>Luxury and performance Automobiles</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>American muscle </h3>
+                    <p>Performance automobiles</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Off-Road</h3>
+                    <p>Endurance and Strength automobiles</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Hybrid</h3>
+                    <p>Eco-friendly automobiles</p>
+                  </div>
+                </article>
+             
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="interest-sub-title">Others</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Basketball</h3>
+                    <p>NBA</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PC games</h3>
+                    <p>NBA 2K, Forza Horizon</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="interest icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Mobile games</h3>
+                    <p>CODM, CPM</p>
+                </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="interest icon"
+                class="icon"
+              />
+              <div>
+                <h3>Video Editing</h3>
+                <p>Cinematic and any personal video contents</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#hobbies'"
+        />
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="hobbies">
+        <h1 class="title">Hobbies</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./profileko/1734348436139.jpg" 
+                alt="Profile picture" 
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/balls-sports.png" 
+                        alt="Experience icon"
+                        class=" icon"
+                        />
+                        <h3>Routine</h3>
+                        <p> <br>My regular activities are also my hobbies because, without them, my day wouldn’t feel complete. These include napping, feeding our pets, cooking, spending time with the people who matter most to me, watching content creators, and listening to music</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/hobbies.png" 
+                        alt="Education icon"
+                        class=" icon"
+                        />
+                        <h3>Leisure time hobbies</h3>
+                        <p>TVL-ICT</p>
+                        <p> <br> All the activities I engage in during my free time are peaceful and include self-meditation. After an overwhelming event, I use these moments to clear my mind and reflect on my mistakes. These activities include walking, playing video games, driving, exercising, and spending time alone.</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>If you ask me more about my hobbies, I’d say I’m passionate about cars. I love everything about them—their design and how they work. Whenever I have free time, I enjoy driving. I also take pleasure in cleaning cars and even our motorcycle. Occasionally, I get the chance to attend car shows, visit racing circuits, or go on rides with my friends.</p>
+                </div>
+    <script src="script.js"></script>
+</body>
+</html>
